@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/','UI/HomeController@index');
-
-Route::group(['namespace' => 'admin','prefix' => 'admin'],function (){
-	
+Route::get('/',function(){
+	return view('UI.index');
 });
+ 
+// Route::get('/hotel',)->name('hotel');

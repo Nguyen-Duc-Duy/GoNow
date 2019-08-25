@@ -1,11 +1,4 @@
 <?php
- namespace App\Http\UI;
+ namespace App\Http\Controllers\UI;
 
- class HomeController extends BaseController
- {
- 	public function index()
- 	{
- 		return view("index");
- 	}
- }
 ?>
