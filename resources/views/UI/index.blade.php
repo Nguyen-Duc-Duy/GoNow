@@ -1,4 +1,4 @@
-@extends('UI/masterview')
+@extends('UI.masterview')
 
 @section('main')
 
@@ -427,4 +427,4 @@
 	</div> 
 </div>
 
-@stop()
+@endsection()
