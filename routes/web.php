@@ -15,7 +15,7 @@ Route::get('/',function(){
 	return view('UI.index');
 });
  Route::get('/ok',function(){
- 	echo "hihi";
+ 	echo "cccc";
  });
 
 // Route::get('/hotel',)->name('hotel');
