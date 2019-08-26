@@ -13,69 +13,7 @@
 					<nav class="menu">
 						<ul>
 							<li class="type-1 active">
-								<a href="#">home<span class="fa fa-angle-down"></span></a>
-								<ul class="dropmenu">
-									<li><a href="index.html">Homepage 1</a></li>
-									<li><a href="index_2.html">Homepage 2</a></li>
-									<li><a href="index_3.html">Homepage 3</a></li>
-									<li><a href="index_4.html">Homepage 4</a></li>
-									<li><a href="index_5.html">Homepage 5</a></li>
-									<li><a href="index_6.html">Homepage 6</a></li>
-									<li><a href="index_7.html">Homepage 7</a></li>
-									<li><a href="index_8.html">Homepage 8</a></li>
-									<li><a href="index_9.html">Homepage 9</a></li>
-									<li><a href="index_10.html">Homepage 10</a></li>
-									<li><a href="plane.html">Homepage 11</a></li>
-									<li><a href="hotels.html">Homepage 12</a></li>
-									<li><a href="video_bar.html">Homepage 13</a></li>
-									<li><a href="tour.html">Homepage 14</a></li>
-									<li><a href="ship.html">Homepage 15</a></li>
-									<li><a href="rental.html">Homepage 16</a></li>
-									<li><a href="cars.html">Homepage 17</a></li>
-								</ul>
-							</li>
-							<li class="type-1"><a href="#">Hotels<span class="fa fa-angle-down"></span></a>
-								<ul class="dropmenu">
-									<li><a href="index_2.html">Home Hotels</a></li>
-									<li><a href="">List View</a></li>
-									<li><a href="hotel_list_2.html">List View 2</a></li>
-									<li><a href="hotel_grid.html">Grid View</a></li>
-									<li><a href="hotel_block.html">Block View</a></li>
-									<li><a href="hotel_detail.html">Hotel Details 1</a></li>
-									<li><a href="booking.html">Booking</a></li>
-									<li><a href="thank_you.html">Thank You</a></li>
-								</ul>
-							</li>
-							<li class="type-1"><a href="#">Flights<span class="fa fa-angle-down"></span></a>
-								<ul class="dropmenu">
-									<li><a href="plane.html">Home Flights</a></li>
-									<li><a href="flight_list.html">List View</a></li>
-									<li><a href="flight_grid.html">Grid View</a></li>
-									<li><a href="flight_block.html">Block View</a></li>
-									<li><a href="flight_details.html">Detailed</a></li>
-									<li><a href="booking.html">Booking</a></li>
-									<li><a href="thank_you.html">Thank You</a></li>
-								</ul>
-							</li>
-							<li class="type-1"><a href="#">Cars<span class="fa fa-angle-down"></span></a>
-								<ul class="dropmenu">
-									<li><a href="car_list.html">List View</a></li>
-									<li><a href="car_grid.html">Grid View</a></li>
-									<li><a href="car_block.html">Block View</a></li>
-									<li><a href="car_detail.html">Detailed</a></li>
-									<li><a href="booking.html">Booking</a></li>
-									<li><a href="thank_you.html">Thank You</a></li>
-								</ul>
-							</li>
-							<li class="type-1"><a href="#">Cruises<span class="fa fa-angle-down"></span></a>
-								<ul class="dropmenu">
-									<li><a href="cruise_list.html">List View</a></li>
-									<li><a href="cruise_grid.html">Grid View</a></li>
-									<li><a href="cruise_block.html">Block View</a></li>
-									<li><a href="cruise_detail.html">Detailed</a></li>
-									<li><a href="booking.html">Booking</a></li>
-									<li><a href="thank_you.html">Thank You</a></li>
-								</ul>
+								<a href="#">Khách sạn<span class="fa fa-angle-down"></span></a>
 							</li>
 							<li class="type-1"><a href="#">Pages<span class="fa fa-angle-down"></span></a>
 								<ul class="dropmenu">
@@ -99,30 +37,6 @@
 											<li><a href="gallery_4.html#cruises">Gallery 3 Column</a></li>				
 											<li><a href="gallery_5.html#cruises">Gallery 2 Column</a></li>				
 											<li><a href="gallery_detail.html">Gallery Read</a></li>				
-										</ul>
-									</li>
-									<li><a href="#">Blog <span class="fa fa-chevron-right"></span></a>
-										<ul class="dropmenu">
-											<li><a href="blog.html">Blog Style 1</a></li>
-											<li><a href="blog_list.html">Blog Right Sidebar</a></li>				
-											<li><a href="blog_list_2.html">Blog Left Sidebar</a></li>				
-											<li><a href="blog_full.html">Blog Full Width</a></li>				
-											<li><a href="blog_detail.html">Blog Read</a></li>				
-											<li><a href="blog_detail_2.html">Blog Read 2</a></li>				
-										</ul>
-									</li>
-									<li><a href="#">FAQ <span class="fa fa-chevron-right"></span></a>
-										<ul class="dropmenu">
-											<li><a href="faq.html">Faq1</a></li>
-											<li><a href="faq1.html">Faq2</a></li>								
-										</ul>
-									</li>
-									<li><a href="#">Layouts <span class="fa fa-chevron-right"></span></a>
-										<ul class="dropmenu">
-											<li><a href="page_layout_left_sidebar.html">Layouts Left Sidebar</a></li>
-											<li><a href="page_layout_right_sidebar.html">Layouts Right Sidebar</a></li>						
-											<li><a href="page_layout_2_sidebar.html">Layouts Two Sidebar</a></li>							
-											<li><a href="page_layout_full_width.html">Layouts Full Width</a></li>							
 										</ul>
 									</li>
 									<li><a href="#">Contact <span class="fa fa-chevron-right"></span></a>
