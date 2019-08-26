@@ -14,5 +14,5 @@
 Route::get('/',function(){
 	return view('UI.index');
 });
- 
+
 // Route::get('/hotel',)->name('hotel');
