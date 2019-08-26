@@ -46,4 +46,5 @@
 <script src="{{ asset('public/js/isotope.pkgd.min.js')}}"></script>
 <script src="{{ asset('public/js/jquery.mousewheel.min.js')}}"></script>
 <script src="{{ asset('public/js/all.js')}}"></script>
+<script src="{{ asset('public/js/myscript.js')}}"></script>
 </html>	
