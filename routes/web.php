@@ -16,6 +16,9 @@ Route::get('/',function(){
 });
  Route::get('/ok',function(){
  	echo "cccc";
+ 	echo "hihihahahahuhu";
  });
+
+
 
 // Route::get('/hotel',)->name('hotel');
