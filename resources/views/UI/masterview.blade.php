@@ -12,7 +12,9 @@
 	<link href="{{ asset('public/css/jquery-ui.structure.min.css')}}" rel="stylesheet" type="text/css"/>
 	<link href="{{ asset('public/css/jquery-ui.min.css')}}" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="{{ asset('public/fonts/font-awesome.min.css')}}">        
-	<link href="{{ asset('public/css/style.css')}}" rel="stylesheet" type="text/css"/>     
+	<link href="{{ asset('public/css/style.css')}}" rel="stylesheet" type="text/css"/>
+	<link href="{{ asset('public/css/mystyle.css')}}" rel="stylesheet" type="text/css"/>
+
 	<title>Let's Travel</title>
 </head>
 <body class="style-2" data-color="theme-1">
