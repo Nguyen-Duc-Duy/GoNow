@@ -5239,7 +5239,7 @@ header.menu-3 {background: #fff;}
 .right-col .folow a {font-size: 24px; line-height: 24px; color: #fff; padding: 17px 0px; position: relative; float: left; display: block; width: 60px; text-align: center;}
 .right-col .folow a:hover {background: rgba(0,0,0,0.4);}
 .menu-3 .nav {padding: 0px;}
-.menu-3 nav > ul > li {padding:10px; text-align: center; border-top: 4px solid rgba(255,255,255,0); margin-top: -1px; margin-left: 0px; font-size: 12px; font-weight: 300; transition: all 0.35s ease-in; -webkit-transition: all 0.35s ease-in;-moz-transition: all 0.35s ease-in;-ms-transition: all 0.35s ease-in;}
+.menu-3 nav > ul > li {padding:10px 45px; text-align: center; border-top: 4px solid rgba(255,255,255,0); margin-top: -1px; margin-left: 0px; font-size: 12px; font-weight: 300; transition: all 0.35s ease-in; -webkit-transition: all 0.35s ease-in;-moz-transition: all 0.35s ease-in;-ms-transition: all 0.35s ease-in;}
 .menu-3 nav > ul > li > a .fa {display: none;}
 .menu-3 nav > ul > li > a {color: #222; font-weight: 400;}
 header.menu-3.color-1 nav > ul > li:hover > a {color: #ff6600;}

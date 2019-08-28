@@ -1,5 +1,4 @@
 <!-- header -->
-<h1>chào các bạn</h1>
 <header class="color-1 hovered menu-3">
 	<div class="container">
 		<div class="row">
