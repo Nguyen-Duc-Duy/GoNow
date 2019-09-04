@@ -1,0 +1,13 @@
+/*search header*/
+.color-1.hovered.menu-3 .nav{
+	display: flex;
+}
+.color-1.hovered.menu-3 .logo{
+	flex: auto;
+}
+.header_search{
+	display: inline-block;
+}
+.header_search .row > div{
+	float: left;
+}
