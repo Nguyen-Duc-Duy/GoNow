@@ -824,7 +824,7 @@ body.st-148 { padding-top: 148px; }
 
 .logo { position: relative; float: left; }
 
-nav { float: right; color: #fff; padding-top: 4px; -o-transition: all 0.2s ease-out; transition: all 0.2s ease-out; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out; }
+nav { /*float: right;*/ color: #fff; padding-top: 4px; -o-transition: all 0.2s ease-out; transition: all 0.2s ease-out; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out; }
 
 nav a, nav a:focus { color: #fff; }
 
@@ -5254,8 +5254,8 @@ header.menu-3.scrol {background: rgba(255,255,255,0.95);padding: 0px;}
 header.menu-3.hovered.scrol .nav {padding: 0px;}
 header.menu-3.hovered.scrol .logo {top: 50%;}
 header.menu-3.hovered.scrol nav > ul > li {padding: 15px 10px;}
-header.menu-3.hovered .logo { position: absolute; top: 50%; margin-top: 0px; transform: translateY(-50%); -webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);}
-header.menu-3.hovered nav .dropmenu a > span {display: none;}
+/*header.menu-3.hovered .logo { position: absolute; top: 50%; margin-top: 0px; transform: translateY(-50%); -webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);}
+*/header.menu-3.hovered nav .dropmenu a > span {display: none;}
 
 .bg-dark.type-2 {background: #060c17 !important; color: #fff;}
 .bg-dasrk.type-2{
