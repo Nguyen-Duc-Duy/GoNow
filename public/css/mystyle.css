@@ -5,9 +5,23 @@
 .color-1.hovered.menu-3 .logo{
 	flex: auto;
 }
+.logo img{
+	width: 200px;
+}
 .header_search{
-	display: inline-block;
+	display: none;
+    width: 72%;
+}
+.header_search input{
+	border: solid 2px #22b056;
+}
+.header_search .form-group{
+	margin: 7px 0;
 }
 .header_search .row > div{
 	float: left;
+	padding: 0 6px;
 }
+/*#dateBegin, #dateEnd{
+	display: none;
+}*/
