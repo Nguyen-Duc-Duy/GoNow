@@ -1,0 +1,9 @@
+@media (max-width: 992px){
+	.header_search{
+		display: none;
+	}
+	.logo img{
+		width: 134px !important;
+		margin-top: 12px;
+	}
+}
