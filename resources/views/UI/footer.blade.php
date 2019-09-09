@@ -1,4 +1,4 @@
-<!-- /footer --> -->
+<!-- /footer -->
 <footer class="bg-dasrk type-2">
 	<div class="container">
 		<div class="row">

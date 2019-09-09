@@ -1,16 +1,53 @@
 <!-- header -->
-<h1>chào các bạn</h1>
 <header class="color-1 hovered menu-3">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="nav"> 
+				<div class="nav">
+					<!-- logo -->
 					<a href="index.html" class="logo">
-						<img src="{{ asset('public/images/theme-1/logo_dark.png')}}" alt="lets travel">
+						<img src="{{ asset('public/logo/logo white.png')}}" alt="lets travel">
 					</a>
 					<div class="nav-menu-icon">
 						<a href="#"><i></i></a>
 					</div>
+					<!-- line responsive search travel -->
+					<div class="header_search">
+							<form action="" method="POST" role="form">
+								<div class="row m-0">
+									<div class="col-4">
+										<div class="form-group">
+
+											<input type="text" class="form-control" id="" placeholder="Nơi bạn muốn đi ">
+										</div>
+									</div>
+									<div class="col-2">
+										<div class="form-group">
+											<!-- <label for="dateBegin">Ngay bat dau</label> -->
+											<input type="date" class="form-control" id="dateBegin" placeholder="">
+										</div>
+									</div>
+									<div class="col-2">
+										<div class="form-group">
+										<!-- 	<label for="dateEnd">Ngay ket thuc</label> -->
+											<input type="date" class="form-control" id="dateEnd" placeholder="">
+										</div>
+									</div>
+									<div class="col-2">
+										<div class="form-group">
+											<input type="text" class="form-control" id="" placeholder="">
+										</div>
+									</div>
+									<div class="col-2">
+										<div class="form-group text-right">
+											<button type="submit" class="btn btn-success">Submit</button>
+										</div>
+									</div>
+								</div>
+
+							</form>
+					</div>
+					<!-- nav header -->
 					<nav class="menu">
 						<ul>
 							<li class="type-1 active">
