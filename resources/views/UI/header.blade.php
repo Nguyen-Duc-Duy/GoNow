@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="nav">
-					<!-- logo -->
+					<!-- logo gonow -->
 					<a href="{{ route('/') }}" class="logo">
 						<img src="{{ asset('public/logo/logo white.png')}}" alt="lets travel">
 					</a>
