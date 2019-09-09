@@ -3,12 +3,17 @@ $(function(){
 		if($(window).width() > 992){
 			if($(this).scrollTop() > 300){
 				
-				$(".header_search").show("slow");
+				$(".header_search").show();
 				$(".menu").hide();
 				
-			}else{
+			}
+		};
+	});
+	$(window).scroll(function(){
+		if($(window).width() > 992){
+			if($(this).scrollTop() < 300){
 				$(".header_search").hide();
-				$(".menu").show("slow");
+				$(".menu").show();
 
 			}
 		};

@@ -5,7 +5,7 @@
 			<div class="col-md-12">
 				<div class="nav">
 					<!-- logo -->
-					<a href="index.html" class="logo">
+					<a href="{{ route('/') }}" class="logo">
 						<img src="{{ asset('public/logo/logo white.png')}}" alt="lets travel">
 					</a>
 					<div class="nav-menu-icon">

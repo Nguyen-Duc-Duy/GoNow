@@ -10,8 +10,5 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/',function(){
-	return view('UI.index');
-});
-// Route::get('/hotel',)->name('hotel');
+Route::get('/','UI\HomeController@Index')->name('/');
+// chao cac ban nhe !
