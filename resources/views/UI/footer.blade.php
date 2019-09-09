@@ -17,7 +17,7 @@
 			<!-- dành cho người đi du lịch -->
 			<div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
 				<div class="footer-block">
-					<h6>Du Lịch</h6>
+					<h6>Khách Du Lịch</h6>
 					<div class="contact-info">
 						<div class="contact-line color-grey-3">
 							<a href=""><span>Địa điểm du lịch</span></a>
