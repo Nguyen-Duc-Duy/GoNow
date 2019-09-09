@@ -11,5 +11,3 @@
 |
 */
 Route::get('/','UI\HomeController@Index')->name('/');
-// chao cac ban nhe !
-//hoho
