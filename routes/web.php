@@ -11,3 +11,4 @@
 |
 */
 Route::get('/','UI\HomeController@Index')->name('/');
+//ok hihi
