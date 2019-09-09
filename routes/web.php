@@ -14,10 +14,7 @@
 Route::get('/',function(){
 	return view('UI.index');
 });
- Route::get('/ok',function(){
- 	echo "cccc";
- 	echo "hihihahahahuhu";
- });
+
 
 
 
