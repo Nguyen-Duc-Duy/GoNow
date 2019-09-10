@@ -15,23 +15,56 @@
 					<div class="main-title">
 						<h1>welcome<br> to let’s travel</h1>
 						<p>Curabitur nunc erat, consequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi quis leo elementum. Lorem ipsum dolor sit amet, labore et dolore magna aliqua.</p>
-						<div class="row">
-							<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-md-offset-0">
-								<div class="input-style-1 min-324">
-									<img src="{{ asset('public/images/loc_icon_small.png')}}" alt="">
-									<input type="text" placeholder="Enter a destination or hotel name">
+						<div class="box_search_hotel">
+							<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" id="search_hotel" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Khách Sạn</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+								</li>
+							</ul>
+							<!-- item hotel -->
+							<div class="tab-content" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="search_hotel">
+									<form action="" method="POST">
+										<div class="form-row align-items-center">
+											<div class="col-auto">
+												<label class="sr-only" for="inlineFormInput">Name</label>
+												<input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+											</div>
+											<div class="col-auto">
+												<label class="sr-only" for="inlineFormInputGroup">Username</label>
+												<div class="input-group mb-2">
+													<div class="input-group-prepend">
+														<div class="input-group-text">@</div>
+													</div>
+													<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+												</div>
+											</div>
+											<div class="col-auto">
+												<div class="form-check mb-2">
+													<input class="form-check-input" type="checkbox" id="autoSizingCheck">
+													<label class="form-check-label" for="autoSizingCheck">
+														Remember me
+													</label>
+												</div>
+											</div>
+											<div class="col-auto">
+												<button type="submit" class="btn btn-primary mb-2">Submit</button>
+											</div>
+										</div>
+									</form>
 								</div>
-								<div class="input-style-1 min-204">
-									<img src="{{ asset('public/images/calendar_icon.png')}}" alt="">
-									<input type="text" placeholder="Check in" class="datepicker">
+								<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+									ok
 								</div>
-								<div class="input-style-1 min-204">
-									<img src="{{ asset('public/images/calendar_icon.png')}}" alt="">
-									<input type="text" placeholder="Check in" class="datepicker">
-								</div>
-								<div class="submit">
-									<input class="c-button b-60 bg-white hv-orange" type="submit" value="search now">
-								</div>
+								<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+								ok
+							</div>
 							</div>
 						</div>
 					</div>  	  
