@@ -47,7 +47,6 @@
 <!-- jquery -->
 <script src="{{ asset('public/js/jquery-2.1.4.min.js')}}"></script>
 <!-- boostrap -->
-<script src="{{ asset('public/js/bootstrap.min.js')}}"></script>
 <script src="{{ asset('public/bootstrap-4.3.1/js/bootstrap.js')}}"></script>
 
 <script src="{{ asset('public/js/jquery-ui.min.js')}}"></script>

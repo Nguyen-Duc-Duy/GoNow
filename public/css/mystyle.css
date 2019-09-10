@@ -10,7 +10,7 @@
 }
 .header_search{
 	display: none;
-    width: 72%;
+	width: 72%;
 }
 .header_search input{
 	border: solid 2px #22b056;
@@ -22,6 +22,33 @@
 	float: left;
 	padding: 0 6px;
 }
-/*#dateBegin, #dateEnd{
-	display: none;
-}*/
+.box_search_hotel{
+	width: 400px;
+	border-radius: 12px;
+	overflow: hidden;
+	background-color: white;
+	position: absolute;
+	right: 0;
+	top: 100px;
+	padding: 10px;
+}
+.vertical-align.banner{
+	top: 0;
+}
+.box_search_hotel .nav-item a{
+	padding: 4px 10px;
+}
+.box_search_hotel .nav-item{
+	flex: auto;
+	text-align: center;
+}
+.nav-pills .nav-link.active{
+	background-color: #e9ecef;
+	color: #262626;
+	font-weight: 400;
+}
+/*footer*/
+.logo-footer{
+margin-top: 34px;
+width: 100%;
+}
