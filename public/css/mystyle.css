@@ -28,7 +28,7 @@
 	overflow: hidden;
 	background-color: white;
 	position: absolute;
-	right: 0;
+	left: -22px;
 	top: 100px;
 	padding: 10px;
 }
@@ -43,12 +43,49 @@
 	text-align: center;
 }
 .nav-pills .nav-link.active{
-	background-color: #e9ecef;
+	background-color: transparent;
 	color: #262626;
 	font-weight: 400;
+	    font-size: 20px;
+}
+#searchForm div label{
+	margin: 10px 0px 5px 5px;
+}
+.box_search_hotel ul li a i{
+	margin: 0 4px 0 -20px;
+}
+#searchForm i{
+	font-size: 22px;
+}
+.fa-building{
+	color: #6858ec;
+}
+.select_time{
+	margin-left: 20px;
+	display: flex;
+	flex-flow: column;
+	line-height: 1.2;
+}
+.select_time span:first{
+	font-size: 16px;
+}
+.box-time .input-group-text{
+	background-color: white;
+	border: 0;
+}
+.box-time .input-group{
+	border: solid 1px #9f9f9f;
+	border-radius: 5px;
+	padding: 3px 0px;
+}
+.box-time .input-group:hover{
+	cursor: pointer;
 }
 /*footer*/
 .logo-footer{
-margin-top: 34px;
-width: 100%;
+	margin-top: 34px;
+	width: 100%;
+}
+.footer-share span{
+	font-size: 30px;
 }

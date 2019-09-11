@@ -7,10 +7,10 @@
 				<div class="footer-block p-0 text-center">
 					<img src="{{ asset('public/logo/logo white.png')}}" alt="" class="logo-footer">
 					<div class="footer-share d-inline-block">
-						<a href="#"><span class="fa fa-facebook"></span></a>
-						<a href="#"><span class="fa fa-twitter"></span></a>
-						<a href="#"><span class="fa fa-google-plus"></span></a>
-						<a href="#"><span class="fa fa-pinterest"></span></a>
+						<a href="#"><span class="fab fa-facebook"></span></a>
+						<a href="#"><span class="fab fa-twitter"></span></a>
+						<a href="#"><span class="fab fa-google-plus"></span></a>
+						<a href="#"><span class="fab fa-pinterest"></span></a>
 					</div>
 				</div>
 			</div>

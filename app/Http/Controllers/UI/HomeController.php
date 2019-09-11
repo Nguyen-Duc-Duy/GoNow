@@ -9,7 +9,7 @@ class HomeController extends BaseController
 {
 	
 	public function Index(){
-		return view('UI.index');
+		return view('UI.Home');
 	}
 }
 ?>
