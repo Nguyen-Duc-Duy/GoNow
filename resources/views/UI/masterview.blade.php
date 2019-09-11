@@ -15,7 +15,7 @@
 
 	<link href="{{ asset('public/css/jquery-ui.structure.min.css')}}" rel="stylesheet" type="text/css"/>
 	<link href="{{ asset('public/css/jquery-ui.min.css')}}" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" href="{{ asset('public/fonts/font-awesome.min.css')}}">        
+	<link rel="stylesheet" href="{{ asset('public/fonts/fontawesome/css/all.css')}}">  
 	<link href="{{ asset('public/css/style.css')}}" rel="stylesheet" type="text/css"/>
 	<link href="{{ asset('public/css/mystyle.css')}}" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="{{ asset('public/css/mediacss.css')}}">
@@ -35,11 +35,11 @@
 		</div>
 	</div>
 
-	@include('UI.header')
+	@include('UI.Header')
 
 	@yield('main')
 
-	@include('UI.footer')	
+	@include('UI.Footer')	
 
 
 
