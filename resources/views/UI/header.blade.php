@@ -13,39 +13,53 @@
 					</div>
 					<!-- line responsive search travel -->
 					<div class="header_search">
-							<form action="" method="POST" role="form">
-								<div class="row m-0">
-									<div class="col-4">
-										<div class="form-group">
-
-											<input type="text" class="form-control" id="" placeholder="Nơi bạn muốn đi ">
-										</div>
-									</div>
-									<div class="col-2">
-										<div class="form-group">
-											<!-- <label for="dateBegin">Ngay bat dau</label> -->
-											<input type="date" class="form-control" id="dateBegin" placeholder="">
-										</div>
-									</div>
-									<div class="col-2">
-										<div class="form-group">
-										<!-- 	<label for="dateEnd">Ngay ket thuc</label> -->
-											<input type="date" class="form-control" id="dateEnd" placeholder="">
-										</div>
-									</div>
-									<div class="col-2">
-										<div class="form-group">
-											<input type="text" class="form-control" id="" placeholder="">
-										</div>
-									</div>
-									<div class="col-2">
-										<div class="form-group text-right">
-											<button type="submit" class="btn btn-success">Submit</button>
-										</div>
+						<form action="" method="POST" role="form">
+							<div class="row m-0">
+								<div class="col-md-4">
+									<div class="form-group">
+										<input type="text" class="form-control" id="" placeholder="Nơi bạn muốn đi ">
 									</div>
 								</div>
+								<div class="col-md-2 p-0 m-auto box-time bg-white scroll-search">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<div class="input-group-text">
+												<i class="far fa-calendar-alt"></i>
+											</div>
+										</div>
+										<p class="from select_time ml-2">
+											<span>10.10.2019</span>
+											<span>Thứ hai</span>
+										</p>
+									</div>
+								</div>
+								<div class="col-md-2 p-0 m-auto box-time bg-white scroll-search">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<div class="input-group-text">
+												<i class="far fa-calendar-check"></i>
+											</div>
+										</div>
+										<p class="to select_time ml-2">
+											<span>20.10.2019</span>
+											<span>Thứ hai</span>
+										</p>
 
-							</form>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="form-group">
+										<input type="text" class="form-control" id="" placeholder="">
+									</div>
+								</div>
+								<div class="col-md-1">
+									<div class="form-group text-right">
+										<button type="submit" class="btn btn-success">Tìm Kiếm</button>
+									</div>
+								</div>
+							</div>
+
+						</form>
 					</div>
 					<!-- nav header -->
 					<nav class="menu">

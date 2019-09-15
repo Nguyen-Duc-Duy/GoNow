@@ -1,4 +1,5 @@
 $(function(){
+	// js scroll header
 	$(window).scroll(function(){
 		if($(window).width() > 992){
 			if($(this).scrollTop() > 300){
@@ -19,4 +20,6 @@ $(function(){
 		};
 	});
 	
+	// js calendar
+	$('.calendar').pignoseCalendar();
 })

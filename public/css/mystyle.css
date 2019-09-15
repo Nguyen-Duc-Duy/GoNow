@@ -12,8 +12,9 @@
 	display: none;
 	width: 72%;
 }
-.header_search input{
-	border: solid 2px #22b056;
+.header_search input,.scroll-search.box-time .input-group{
+	border: solid 1px #22b056;
+	border-radius: 5px;
 }
 .header_search .form-group{
 	margin: 7px 0;
@@ -22,10 +23,11 @@
 	float: left;
 	padding: 0 6px;
 }
+
 .box_search_hotel{
 	width: 400px;
 	border-radius: 12px;
-	overflow: hidden;
+
 	background-color: white;
 	position: absolute;
 	left: -22px;
@@ -46,7 +48,7 @@
 	background-color: transparent;
 	color: #262626;
 	font-weight: 400;
-	    font-size: 20px;
+	font-size: 20px;
 }
 #searchForm div label{
 	margin: 10px 0px 5px 5px;
@@ -69,6 +71,10 @@
 .select_time span:first{
 	font-size: 16px;
 }
+.box-time{
+	border-radius: 5px;
+	overflow: hidden;
+}
 .box-time .input-group-text{
 	background-color: white;
 	border: 0;
@@ -80,6 +86,81 @@
 }
 .box-time .input-group:hover{
 	cursor: pointer;
+}
+/*home*/
+
+.calendar .pignose-calendar{
+	width: 100% !important;
+}
+.pignose-calendar-body{
+	padding-top: 0 !important;
+}
+.pignose-calendar-header{
+	margin-top: 12px;
+}
+.pignose-calendar-top{
+	padding: 12px 0px !important;
+}
+.pignose-calendar-top-date{
+	padding: 5px 0px !important;
+}
+
+.pignose-calendar-top-month,.pignose-calendar-top-year{
+	font-size: 16px !important;
+	margin: 0 !important;
+}
+.pignose-calendar-week{
+	    font-size: 12px;
+}
+.pignose-calendar .pignose-calendar-unit a{
+	width: 30px ! important;
+	height: 30px ! important;
+	line-height: 2.2em ! important;
+}
+.pignose-calendar .pignose-calendar-unit{
+	height: 100% !important;
+	font-size: 14px;
+	width: 16.28% !important;
+}
+
+.pignose-calendar-body .pignose-calendar-row{
+	height: 38px !important;
+	
+}
+.pignose-calendar-body .pignose-calendar-row a{
+	
+}
+.pignose-calendar .pignose-calendar-top{
+	box-shadow: 0 0 0 0 !important;
+}
+.box-calendar:before{
+	content: "";
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	left: -30px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    border-left: 15px solid transparent;
+    top: 170px;
+}
+.box-calendar{
+	position: absolute;
+	right: -520px;
+	
+	top: 28px;
+    
+}
+.box-calendar> div{
+	border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+}
+.box-calendar .pignose-calendar{
+	box-shadow: 0 0 0 0 !important;
+	border: 0;
 }
 /*footer*/
 .logo-footer{
