@@ -19,6 +19,7 @@
 	<link href="{{ asset('public/css/style.css')}}" rel="stylesheet" type="text/css"/>
 	<link href="{{ asset('public/css/mystyle.css')}}" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="{{ asset('public/css/mediacss.css')}}">
+	<link rel="stylesheet" href="{{ asset('public/css/pignose.calendar.min.css')}}">
 	<title>Let's Travel</title>
 </head>
 <body class="style-2" data-color="theme-1">
@@ -55,5 +56,6 @@
 <script src="{{ asset('public/js/isotope.pkgd.min.js')}}"></script>
 <script src="{{ asset('public/js/jquery.mousewheel.min.js')}}"></script>
 <script src="{{ asset('public/js/all.js')}}"></script>
+<script src="{{ asset('public/js/pignose.calendar.full.min.js')}}"></script>
 <script src="{{ asset('public/js/myscript.js')}}"></script>
 </html>	

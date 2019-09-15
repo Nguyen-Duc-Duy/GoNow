@@ -31,6 +31,12 @@
 						<div class="tab-content" id="pills-tabContent">
 							<div class="tab-pane fade show active px-2" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 								<form action="" method="POST" id="searchForm">
+									<div class="box-calendar">
+										<div>
+											<div class="calendar"></div>
+											<div class="calendar"></div>
+										</div>
+									</div>
 									<div class="row align-items-center">
 										<div class="col-md-12">
 											<label for="where">Nơi bạn sẽ đi ?</label>
