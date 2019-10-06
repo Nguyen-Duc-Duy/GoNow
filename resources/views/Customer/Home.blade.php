@@ -1,4 +1,4 @@
-@extends('UI.masterview')
+@extends('Customer.masterview')
 
 @section('main')
 
@@ -12,32 +12,23 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-xs-12">
-					<div class="main-title">
-						
-					</div>
 					<div class="box_search_hotel">
-						<ul class="nav nav-pills mb-4 p-0" id="pills-tab" role="tablist">
+						<ul class="nav nav-pills p-0" id="pills-tab" role="tablist">
 							<li class="nav-item">
-								<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-building"></i> Khách Sạn</a>
+								<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Tìm kiếm khách sạn nơi bạn sẽ đến </a>
 							</li>
 							<!-- <li class="nav-item">
 								<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-							</li> -->
+							-->
 						</ul>
-						<!-- item hotel -->
+						<!-- item motel -->
+						<!-- order motel -->
 						<div class="tab-content" id="pills-tabContent">
 							<div class="tab-pane fade show active px-2" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 								<form action="" method="POST" id="searchForm">
-									<div class="box-calendar">
-										<div>
-											<div class="calendar"></div>
-											<div class="calendar"></div>
-										</div>
-									</div>
 									<div class="row align-items-center">
+										<!-- select where will go -->
 										<div class="col-md-12">
 											<label for="where">Nơi bạn sẽ đi ?</label>
 											<div class="input-group mb-2">
@@ -49,34 +40,68 @@
 												</div>
 											</div>
 										</div>
+										<!-- //////// -->
 										<div class="col-md-6 pr-0 box-time">
+										<!-- select a day from  -->
 											<label for="from">Đi từ ngày :</label>
-											<div class="input-group mb-2">
+											<div class="input-group mb-2 booking-calendar">
 												<div class="input-group-prepend">
 													<div class="input-group-text">
 														<i class="far fa-calendar-alt"></i>
 													</div>
 												</div>
-												<p class="from select_time">
+												<p class="from select_time" id="select_time">
 													<span>10.10.2019</span>
 													<span>Thứ hai</span>
 												</p>
 											</div>
+										<!-- //////// -->
+											<div class="box-calendar">
+												<div class="calendar">
+													<div id="v-cal">
+														<div class="vcal-header">
+															<div class="vcal-btn" data-calendar-toggle="previous">
+																<i class="far fa-arrow-alt-circle-left"></i>
+															</div>
+															<div class="vcal-header__label" data-calendar-label="month">March 2017</div>
+															<div class="vcal-btn" data-calendar-toggle="next">
+																<i class="far fa-arrow-alt-circle-right"></i>
+															</div>
+														</div>
+														<div class="vcal-week">
+															<span>Mon</span>
+															<span>Tue</span>
+															<span>Wed</span>
+															<span>Thu</span>
+															<span>Fri</span>
+															<span>Sat</span>
+															<span>Sun</span>
+														</div>
+														<div class="vcal-body" data-calendar-area="month">
+														</div>
+													</div>
+												</div>
+											</div>
+										<!-- //////// -->
 										</div>
+										<!-- value night -->
 										<div class="col-md-6 box-time">
-											<label for="to">Đến ngày :</label>
+											<label for="to">Số đêm :</label>
 											<div class="input-group mb-2">
 												<div class="input-group-prepend">
 													<div class="input-group-text">
-														<i class="far fa-calendar-check"></i>
+														<i class="far fa-moon"></i>
 													</div>
 												</div>
-												<p class="to select_time">
-													<span>20.10.2019</span>
-													<span>Thứ hai</span>
+												<p class="to select_time d-block ml-2">
+													<button type="button" class="minus">-</button>
+													<input type="text" value="0" class="number"> Đêm
+													<button type="button" class="plus">+</button>
 												</p>
 											</div>
 										</div>
+										<!-- //////// -->
+										<!-- People/Room -->
 										<div class="col-md-12 pr-0">
 											<label for="Zoom">Người/Phòng :</label>
 											<div class="row m-0">
@@ -87,22 +112,24 @@
 																<i class="fas fa-users"></i>
 															</div>
 														</div>
-														<input type="text" class="form-control" id="Zoom" placeholder="Trẻ em,Người lớn,Cặp đôi">
+														<div class="room_order">
+															<p>Trẻ em, người lớn, ...</p>
+														</div>
 													</div>
 												</div>
 												<div class="col-md-4">
-													<button  type="submit" name="send" class="btn btn-success mb-2 w-100">Tìm Kiếm</button>
+													<button  type="submit" name="send" class="btn btn-success mb-2 w-100">Tìm Kiếm
+													</button>
 												</div>
 											</div>
 										</div>
-										
+										<!-- //////// -->
 									</div>
 								</form>
 							</div>
-							<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+							<!-- <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 								ok
-							</div>
-							<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">ok</div>
+							</div> -->
 						</div>
 					</div>  	  
 				</div>
@@ -397,11 +424,11 @@
 					<div class="vertical-bottom">
 						<div class="fl">
 							<div class="tour-info">
-								<img src="{{ asset('public/imagesg/people_icon.png')}}" alt="">
+								<img src="{{ asset('public/images/people_icon.png')}}" alt="">
 								<span class="font-style-2"><b>2</b> adults, <b>1</b> kids</span>
 							</div>
 							<div class="tour-info">
-								<img src="{{ asset('public/imagesg/calendar_icon.png')}}" alt="">
+								<img src="{{ asset('public/images/calendar_icon.png')}}" alt="">
 								<span class="font-style-2">July<b> 19th</b> to July<b> 26th</b></span>
 							</div>
 						</div>	

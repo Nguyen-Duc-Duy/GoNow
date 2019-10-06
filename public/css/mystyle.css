@@ -12,7 +12,10 @@
 	display: none;
 	width: 72%;
 }
-.header_search input,.scroll-search.box-time .input-group{
+.pignose-calendar .pignose-calendar-header{
+	margin-top: 0!important;
+}
+.header_search > div input,.scroll-search.box-time .input-group{
 	border: solid 1px #22b056;
 	border-radius: 5px;
 }
@@ -27,11 +30,10 @@
 .box_search_hotel{
 	width: 400px;
 	border-radius: 12px;
-
 	background-color: white;
 	position: absolute;
 	left: -22px;
-	top: 100px;
+	top: 92px;
 	padding: 10px;
 }
 .vertical-align.banner{
@@ -73,94 +75,112 @@
 }
 .box-time{
 	border-radius: 5px;
-	overflow: hidden;
 }
 .box-time .input-group-text{
 	background-color: white;
-	border: 0;
+	border: 5px;
 }
 .box-time .input-group{
 	border: solid 1px #9f9f9f;
 	border-radius: 5px;
 	padding: 3px 0px;
 }
-.box-time .input-group:hover{
+.box-time .input-group.booking-calendar:hover{
 	cursor: pointer;
 }
+
 /*home*/
-
-.calendar .pignose-calendar{
-	width: 100% !important;
+#pills-home-tab{
+	text-align: left;
+	font-size: 15px;
+	color: #5141db;
+	font-weight: 600;
 }
-.pignose-calendar-body{
-	padding-top: 0 !important;
+/*calendar*/
+.calendar{
+	width: 100%;
 }
-.pignose-calendar-header{
-	margin-top: 12px;
-}
-.pignose-calendar-top{
-	padding: 12px 0px !important;
-}
-.pignose-calendar-top-date{
-	padding: 5px 0px !important;
-}
-
-.pignose-calendar-top-month,.pignose-calendar-top-year{
-	font-size: 16px !important;
-	margin: 0 !important;
-}
-.pignose-calendar-week{
-	    font-size: 12px;
-}
-.pignose-calendar .pignose-calendar-unit a{
-	width: 30px ! important;
-	height: 30px ! important;
-	line-height: 2.2em ! important;
-}
-.pignose-calendar .pignose-calendar-unit{
-	height: 100% !important;
-	font-size: 14px;
-	width: 16.28% !important;
-}
-
-.pignose-calendar-body .pignose-calendar-row{
-	height: 38px !important;
-	
-}
-.pignose-calendar-body .pignose-calendar-row a{
-	
-}
-.pignose-calendar .pignose-calendar-top{
-	box-shadow: 0 0 0 0 !important;
+.box-calendar{
+	position: absolute;
+	top: 92px;
+	height: auto;
+	left: -3px;
+	z-index: 9;
+	width: 400px;
+	display: none;
 }
 .box-calendar:before{
 	content: "";
 	width: 1px;
 	height: 1px;
 	position: absolute;
-	left: -30px;
-    display: inline-block;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid #fff;
-    border-left: 15px solid transparent;
-    top: 170px;
+	left: 92px;
+	display: inline-block;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid #e9ecef;
+	border-right: 12px solid transparent;
+	border-left: 12px solid transparent;
+	top: -22px;
+	z-index: 10;
 }
-.box-calendar{
-	position: absolute;
-	right: -520px;
-	
-	top: 28px;
-    
-}
-.box-calendar> div{
-	border-radius: 14px;
-    overflow: hidden;
-    display: flex;
+.box-calendar > div{
+	border-radius: 12px;
+	overflow: hidden;
+	height: 100%;
+	background-color: #fff;
 }
 .box-calendar .pignose-calendar{
 	box-shadow: 0 0 0 0 !important;
 	border: 0;
+	height: 100%;
+}
+.pignose-calendar-top-icon:before{
+	content : '' !important;
+}
+.box-time .plus,.box-time .minus{
+	font-size: 22px;
+}
+.number{
+	width: 15px;
+}
+
+.demo-picked {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.demo-picked span {
+	font-weight: bold;
+}
+#v-cal .vcal-header{
+	padding: 10px;
+}
+.vcal-week, .vcal-body{
+	padding: 0px 18px;
+}
+#v-cal .vcal-week span{
+	font-size: 12px;
+	padding: 10px;
+}
+#v-cal .vcal-btn{
+-webkit-appearance: initial;
+}
+#v-cal .vcal-date{
+	padding: 10px 14px;
+}
+.room_order{
+	flex: auto;
+	border-radius: 0 5px 5px 0;
+	border: solid 1px #9f9f9f;
+}
+.room_order:hover{
+	cursor: pointer;
+}
+.room_order p{
+	margin-left: 10px;
+	margin-top: 4px;
+	font-size: 16px;
+    color: #696464;
 }
 /*footer*/
 .logo-footer{

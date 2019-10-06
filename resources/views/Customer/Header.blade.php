@@ -40,9 +40,10 @@
 												<i class="far fa-calendar-check"></i>
 											</div>
 										</div>
-										<p class="to select_time ml-2">
-											<span>20.10.2019</span>
-											<span>Thứ hai</span>
+										<p class="to select_time ml-2 d-block">
+											<button type="button" class="minus">-</button>
+											<input type="text" value="0" class="number"> Đêm
+											<button type="button" class="plus">+</button>
 										</p>
 
 									</div>
