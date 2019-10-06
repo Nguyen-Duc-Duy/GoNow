@@ -11,16 +11,19 @@
 	<!-- boostrap -->
 	<link href="{{ asset('public/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="{{ asset('public/bootstrap-4.3.1.css/bootstrap.css')}}">
+	<link rel="stylesheet" href="{{ asset('public/bootstrap-4.3.1/css/bootstrap.css')}}">
 
 	<link href="{{ asset('public/css/jquery-ui.structure.min.css')}}" rel="stylesheet" type="text/css"/>
 	<link href="{{ asset('public/css/jquery-ui.min.css')}}" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="{{ asset('public/fonts/fontawesome/css/all.css')}}">  
 	<link href="{{ asset('public/css/style.css')}}" rel="stylesheet" type="text/css"/>
-	<link href="{{ asset('public/css/mystyle.css')}}" rel="stylesheet" type="text/css"/>
+	
 	<link rel="stylesheet" href="{{ asset('public/css/mediacss.css')}}">
-	<link rel="stylesheet" href="{{ asset('public/css/pignose.calendar.min.css')}}">
+	<!-- lịch -->
+	<link rel="stylesheet" href="{{ asset('public/css/vanillaCalendar.css')}}">
 	<title>Let's Travel</title>
+<!-- My style -->
+	<link href="{{ asset('public/css/mystyle.css')}}" rel="stylesheet" type="text/css"/>
 </head>
 <body class="style-2" data-color="theme-1">
 
@@ -36,11 +39,11 @@
 		</div>
 	</div>
 
-	@include('UI.Header')
+	@include('Customer.Header')
 
 	@yield('main')
 
-	@include('UI.Footer')	
+	@include('Customer.Footer')	
 
 
 
@@ -56,6 +59,6 @@
 <script src="{{ asset('public/js/isotope.pkgd.min.js')}}"></script>
 <script src="{{ asset('public/js/jquery.mousewheel.min.js')}}"></script>
 <script src="{{ asset('public/js/all.js')}}"></script>
-<script src="{{ asset('public/js/pignose.calendar.full.min.js')}}"></script>
+<script src="{{ asset('public/js/vanillaCalendar.js')}}"></script>
 <script src="{{ asset('public/js/myscript.js')}}"></script>
 </html>	

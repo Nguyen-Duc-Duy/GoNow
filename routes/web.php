@@ -10,5 +10,5 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/','UI\HomeController@Index')->name('/');
+Route::get('/','Customer\HomeController@Index')->name('/');
 //ok hihi
