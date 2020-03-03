@@ -10,5 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/','Customer\HomeController@Index')->name('/');
-//ok hihi
+Route::group(['namespace'=>'Customer','prefix'=>''],function(){
+	Route::get('/','HomeController@Index')->name('/home');
+	Route::get('/motel','HomeController@ListMotel')->name('motel');
+});

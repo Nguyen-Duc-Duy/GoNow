@@ -1,4 +1,5 @@
-var selectDate = [1,10,10,2019];
+var date = new Date();
+var selectDate = [date.getDay(),date.getDate()+1,date.getMonth(),date.getFullYear()];
 var dateTimeDetail = "";
 var vanillaCalendar = {
     month: document.querySelectorAll('[data-calendar-area="month"]')[0],

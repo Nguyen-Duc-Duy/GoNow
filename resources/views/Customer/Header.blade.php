@@ -1,11 +1,17 @@
 <!-- header -->
 <header class="color-1 hovered menu-3">
 	<div class="container">
-		<div class="row">
+		<div class="row nav_top">
+			<ul>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="row nav_header">
 			<div class="col-md-12">
 				<div class="nav">
 					<!-- logo gonow -->
-					<a href="{{ route('/') }}" class="logo">
+					<a href="{{ route('/home') }}" class="logo">
 						<img src="{{ asset('public/logo/logo white.png')}}" alt="lets travel">
 					</a>
 					<div class="nav-menu-icon">
@@ -20,7 +26,7 @@
 										<input type="text" class="form-control" id="" placeholder="Nơi bạn muốn đi ">
 									</div>
 								</div>
-								<div class="col-md-2 p-0 m-auto box-time bg-white scroll-search">
+								<div class="box_time_header col-md-5 d-flex p-0 m-auto bg-white scroll-search">
 									<div class="input-group">
 										<div class="input-group-prepend">
 											<div class="input-group-text">
@@ -28,12 +34,38 @@
 											</div>
 										</div>
 										<p class="from select_time ml-2">
-											<span>10.10.2019</span>
-											<span>Thứ hai</span>
+											<span></span>
+											<span></span>
 										</p>
 									</div>
-								</div>
-								<div class="col-md-2 p-0 m-auto box-time bg-white scroll-search">
+									<!-- calendar -->
+										<!-- <div class="box-calendar">
+											<div class="calendar">
+												<div id="v-cal">
+													<div class="vcal-header">
+														<div class="vcal-btn" data-calendar-toggle="previous">
+															<i class="far fa-arrow-alt-circle-left"></i>
+														</div>
+														<div class="vcal-header__label" data-calendar-label="month">March 2017</div>
+														<div class="vcal-btn" data-calendar-toggle="next">
+															<i class="far fa-arrow-alt-circle-right"></i>
+														</div>
+													</div>
+													<div class="vcal-week">
+														<span>Mon</span>
+														<span>Tue</span>
+														<span>Wed</span>
+														<span>Thu</span>
+														<span>Fri</span>
+														<span>Sat</span>
+														<span>Sun</span>
+													</div>
+													<div class="vcal-body" data-calendar-area="month">
+													</div>
+												</div>
+											</div>
+										</div> -->
+									<!-- //////// -->
 									<div class="input-group">
 										<div class="input-group-prepend">
 											<div class="input-group-text">
@@ -42,7 +74,7 @@
 										</div>
 										<p class="to select_time ml-2 d-block">
 											<button type="button" class="minus">-</button>
-											<input type="text" value="0" class="number"> Đêm
+											<input type="text" value="0" class="number"> <span>Đêm</span>
 											<button type="button" class="plus">+</button>
 										</p>
 
@@ -50,7 +82,7 @@
 								</div>
 								<div class="col-md-2">
 									<div class="form-group">
-										<input type="text" class="form-control" id="" placeholder="">
+										<input type="text" class="form-control" id="" placeholder="Người/Phòng">
 									</div>
 								</div>
 								<div class="col-md-1">
